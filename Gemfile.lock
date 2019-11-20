@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-tanmer (0.0.1)
+    rubocop-tanmer (0.1.0)
       rubocop (~> 0.76)
       rubocop-performance (~> 1.5)
       rubocop-rails (~> 2.3)
