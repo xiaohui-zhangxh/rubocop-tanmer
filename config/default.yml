@@ -1,0 +1,44 @@
+require:
+  - rubocop-rspec
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 2.5
+  Exclude: []
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+Layout/AlignHash:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: key
+
+Style/AsciiComments:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
+Style/HashSyntax:
+  Enabled: false
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+Style/MultilineTernaryOperator:
+  Enabled: false
+Style/ParallelAssignment:
+  Enabled: true
+Style/StringLiterals:
+  Enabled: false
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: true
+Metrics/AbcSize:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Metrics/MethodLength:
+  Max: 35
