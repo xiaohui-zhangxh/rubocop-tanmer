@@ -11,6 +11,8 @@ Layout/DotPosition:
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: key
+Layout/LineLength:
+  Max: 100
 
 Style/AsciiComments:
   Enabled: false
@@ -38,7 +40,5 @@ Lint/AssignmentInCondition:
   AllowSafeAssignment: true
 Metrics/AbcSize:
   Enabled: false
-Metrics/LineLength:
-  Max: 100
 Metrics/MethodLength:
   Max: 35
